@@ -1,8 +1,9 @@
 const express = require('express')
 const router = express.Router()
+const Subscriber = require("../models/subscriber")
 
 // get
-router.get('/', (req,res) => {
+router.get('/', async (req,res) => {
     res.send('Hello from main')
 })
 
