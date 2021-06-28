@@ -3,16 +3,16 @@ const router = express.Router()
 
 // get
 router.get('/', (req,res) => {
-
+    res.send('Hello from main')
 })
 
 // getting one
 router.get('/:id', (req,res) => {
-
+    res.send(req.params.id)
 })
 
 // creating a user
-router.get('/', (req,res) => {
+router.post('/', (req,res) => {
 
 })
 
