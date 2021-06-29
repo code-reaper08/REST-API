@@ -17,3 +17,12 @@ Content-Type: application/json
 ###
 
 DELETE http://localhost:3000/subscribers/60dab8080051de23102ae56c
+
+###
+
+PATCH http://localhost:3000/subscribers/60da1753cecdf42e0c0c14f1
+Content-Type: application/json
+
+{
+    "name" : "akira"
+}
