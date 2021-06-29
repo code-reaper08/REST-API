@@ -2,7 +2,7 @@ GET http://localhost:3000/subscribers/
 
 ###
 
-GET http://localhost:3000/subscribers/id:90
+GET http://localhost:3000/subscribers/60dab8080051de23102ae56c
 
 ###
 
@@ -13,3 +13,7 @@ Content-Type: application/json
     "name" : "mark",
     "subscribedToChannel" : "goodfilms"
 }
+
+###
+
+DELETE http://localhost:3000/subscribers/60dab8080051de23102ae56c
